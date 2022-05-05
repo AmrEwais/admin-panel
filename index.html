@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+    <link rel="stylesheet" href="/index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>Admin page</title>
+</head>
+<body>
+    <span class="header"></span>
+    <main>
+        <section class="search">
+            
+            <div class="sidebar" >
+                <h2>Categories</h2>
+                <div class="searchBox">
+                    <i class="fa fa-search"></i>
+                    <input type="text" placeholder="Search">
+                    <button class="submitbutton" type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div class="list">
+                    <details id="d1">
+                        <summary>IT</summary>
+                        <ul>
+                            <li><a href="#">Beginning Graphic Design: Color</a></li>
+                            <li><a href="#">Beginning Graphic Design: Typography</a></li>
+                            <li><a href="#">Beginning Graphic Design: Fundamentals</a></li>
+                            <li><a href="#">Rethinking the Client Dynamic— Improve the process for a better experience</a></li>
+                            <li><a href="#">Improve Your Typography: Poster Design Critique</a></li>
+                        </ul>
+                    
+                    </details>
+                    <details id="d2">
+                        <summary>Programming</summary>
+                        <ul>
+                            <li><a href="#">hi</a></li>
+                            <li><a href="#">my</a></li>
+                            <li><a href="#">name</a></li>
+                            <li><a href="#">is</a></li>
+                            <li><a href="#">Amr</a></li>
+                        </ul>
+                    </details>
+                    <details id="d3">
+                        <summary>Computer networks</summary>
+                        <ul>
+                            <li><a href="#">hi</a></li>
+                            <li><a href="#">my</a></li>
+                            <li><a href="#">name</a></li>
+                            <li><a href="#">is</a></li>
+                            <li><a href="#">Amr</a></li>
+                        </ul>
+                    </details>
+                    <details id="d4">
+                        <summary>Accounting</summary>
+                        <ul>
+                            <li><a href="#">hi</a></li>
+                            <li><a href="#">my</a></li>
+                            <li><a href="#">name</a></li>
+                            <li><a href="#">is</a></li>
+                            <li><a href="#">Amr</a></li>
+                        </ul>
+                    </details>
+                    <details id="d5">
+                        <summary>Graphic design</summary>
+                        <ul>
+                            <li><a href="#">hi</a></li>
+                            <li><a href="#">my</a></li>
+                            <li><a href="#">name</a></li>
+                            <li><a href="#">is</a></li>
+                            <li><a href="#">Amr</a></li>
+                        </ul>
+                    </details>
+                    <details id="d6">
+                        <summary>Language</summary>
+                        <ul>
+                            <li><a href="#">hi</a></li>
+                            <li><a href="#">my</a></li>
+                            <li><a href="#">name</a></li>
+                            <li><a href="#">is</a></li>
+                            <li><a href="#">Amr</a></li>
+                        </ul>
+                    </details>
+                </div>
+                <button class="submitbutton addbuttom" type="submit">Add New Course</button>
+            </div>
+            
+        </section>
+        <section class="content">
+            <div class="hd">
+                <h2>Edit Course</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+                    <li>Edit Course</li>
+                </ul>
+            </div>
+            <div class="container">
+                <div class="rows">
+                    <div class="colm1">
+                        <div class="p-s">
+                            <div class="p-s-text">Basic information</div><hr class="line">
+                        </div>
+                        <div class="form-g1">
+                            <label>Course title</label>
+                            <input type="text" class="form-text" placeholder="Enter course title">
+                            <small>Please be specific in choosing your title</small>
+                        </div>
+                        <div class="form-g2">
+                            <label>description</label>
+                            <textarea class="form-text" placeholder="Enter course description"></textarea>
+                            <small>shortly describe this course</small>
+                        </div>
+                        <div class="form-g3">
+                            <label>feedback</label>
+                            <div class="stars"><p class="star-count">15</p><small>favourite count</small></div>
+                            <div class="comments">
+                                <div>1</div>
+                                <div>2</div>
+                                <div>3</div>
+                                <div>4</div>
+                                <div>5</div>
+                                <div>6</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="colm2">
+                        <div class="card card1">
+                            <button class="submitbutton" type="submit">save changes</button>
+                            <button class="submitbutton" type="submit">delete course</button>
+                        </div>
+                        <div class="p-s">
+                            <div class="p-s-text">video</div><hr class="line">
+                        </div>
+                        <div class="card card2">
+                            
+                                <div class="card-video">
+                                    <iframe width="450" height="350" src="https://www.youtube.com/watch?v=0fvEFIkT7pM" allowfullscreen=""></iframe>
+                                </div>
+                                <div class="card-body">
+                                    <label >URL</label>
+                                    <input class="form-text" type="text" placeholder="Enter video URL" value="https://www.youtube.com/watch?v=0fvEFIkT7pM" placeholder="Enter Video URL">
+                                    <small>Enter a valid video URL.</small>
+                                    <label >Course Level</label>
+                                    <p class="course-level">1</p>
+                                </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <span class="footer"></span>
+</body>
+</html>
