@@ -1,4 +1,4 @@
-# Frontend Mentor - StandBy Admin Panel
+# StandBy Admin Panel
 
 this is an admin page in a learning websites (StandBy) in a static way
 
